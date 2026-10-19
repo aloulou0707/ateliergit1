@@ -1,9 +1,17 @@
+a=int(input("donner a"))
+b=int(input("donner b"))
 
-print("saisir a")
-a=int(input())
-print("saisir b")
-b=int(input())
-s=a+b
+def addition(a,b):
+    return a+b
+print("addition :" addition(a,b))
 
 def soustraction(a,b):
     return a-b
+print("soustraction :" soustraction(a,b))
+
+def multiplication(a,b):
+    return a*b
+print("multiplication :" multiplication(a,b))
+
+
+
